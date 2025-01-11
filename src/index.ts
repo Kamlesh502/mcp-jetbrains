@@ -6,6 +6,7 @@ import {
   CallToolResult,
   ListToolsRequestSchema,
 } from '@modelcontextprotocol/sdk/types.js';
+import fetch from 'node-fetch'; // Add this
 
 // Logging is enabled only if LOG_ENABLED environment variable is set to 'true'
 const LOG_ENABLED = process.env.LOG_ENABLED === 'true';
